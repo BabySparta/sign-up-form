@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andromeda Sign Up</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="full-page">
+        <div class="background">
+            <div class="credit">Image by <a class="creditLink" href="https://pixabay.com/users/nix1111-9746989/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3613931">Kyoung-Sik Choi</a> from <a class="creditLink" href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3613931">Pixabay</a></div>
+        </div>
+        <div class="content">
+            <div class="header">
+                <img class= "logo" src="Andromeda-Icon.svg" alt="Galaxy Logo">
+                <div class="title">Andromeda</div>
+            </div>
+            <div class="descText">
+                <div class="makeAcct">Create a new Account</div>
+                <div class="logIn">Already have an account? <a class="logLink">Log In</a></div>
+            </div>
+            <form action="#">
+                <div class="name">
+                    <div class="input">
+                        <label for="first-name">First Name*</label><br>
+                        <input type="text" name= "first-name" id="first-name" required></input>
+                    </div>
+                    <div class="input">
+                        <label for="last-name">Last Name*</label><br>
+                        <input type="text" name= "last-name" id="last-name" required></input>
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="input">
+                        <label for="email">Email Adress*</label><br>
+                        <input type="email" name= "email" id="email" required></input>
+                    </div>
+                    <div class="input">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" name= "phone" id="phone" maxlength="12" minlength="12" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="xxx-xxx-xxxx"></input>
+                    </div>
+                </div>
+                <div class="password">
+                    <div class="input">
+                        <label for="newPassword">Password*</label><br>
+                        <input type="password" name= "newPassword" id="newPassword" required></input>
+                    </div>
+                    <div class="input">
+                        <label for="confirmPassword">Confirm Password*</label><br>
+                        <input type="password" name= "conPassword" id="confirmPassword" required></input>
+                    </div>
+                </div>
+                <div class="createAcct">
+                    <button type="submit" name= "submit" id="submit">Create Account</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html> 
