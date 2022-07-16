@@ -20,23 +20,23 @@
             </div>
             <div class="descText">
                 <div class="makeAcct">Create a new Account</div>
-                <div class="logIn">Already have an account? <a class="logLink">Log In</a></div>
+                <div class="logIn">Already have an account? <a class="logLink" href="#">Log In</a></div>
             </div>
             <form action="#">
                 <div class="name">
                     <div class="input">
                         <label for="first-name">First Name*</label><br>
-                        <input type="text" name= "first-name" id="first-name" required></input>
+                        <input type="text" name= "first-name" id="first-name" placeholder=" " required></input>
                     </div>
                     <div class="input">
                         <label for="last-name">Last Name*</label><br>
-                        <input type="text" name= "last-name" id="last-name" required></input>
+                        <input type="text" name= "last-name" id="last-name" placeholder=" " required></input>
                     </div>
                 </div>
                 <div class="info">
                     <div class="input">
                         <label for="email">Email Adress*</label><br>
-                        <input type="email" name= "email" id="email" required></input>
+                        <input type="email" name= "email" id="email" placeholder=" " required></input>
                     </div>
                     <div class="input">
                         <label for="phone">Phone Number</label><br>
@@ -46,13 +46,14 @@
                 <div class="password">
                     <div class="input">
                         <label for="newPassword">Password*</label><br>
-                        <input type="password" name= "newPassword" id="newPassword" required></input>
+                        <input type="password" name= "newPassword" id="newPassword" placeholder=" " required></input>
                     </div>
                     <div class="input">
                         <label for="confirmPassword">Confirm Password*</label><br>
-                        <input type="password" name= "conPassword" id="confirmPassword" required></input>
+                        <input type="password" name= "conPassword" id="confirmPassword" placeholder=" " required></input>
                     </div>
                 </div>
+                <div class="pass-error">* passwords do not match</div>
                 <div class="createAcct">
                     <button type="submit" name= "submit" id="submit">Create Account</button>
                 </div>
